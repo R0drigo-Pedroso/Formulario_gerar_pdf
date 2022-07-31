@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Gerar PDF</title>
+
+    <!-- Chaves de busca -->
+    <meta name="keywords" content="">
+
+    <!-- Descrição -->
+    <meta name="description" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+ 
+    <h1>Formulário - Gerar PDF</h1>
+
+    <main id="conteudo">
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone">
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <br>
+            <input type="submit" value="enviar" onclick="gerarPDF()">
+        </form>
+    </main>
+        
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
