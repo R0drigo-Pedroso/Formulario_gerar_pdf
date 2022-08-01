@@ -1,6 +1,5 @@
 // Gerar Arquivo em pdf com o html
 
-
 function gerarPDF() {
     var docPDF = document.getElementById('conteudo').innerHTML;
 
